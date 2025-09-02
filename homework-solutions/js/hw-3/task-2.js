@@ -4,3 +4,10 @@
 n + nn + nnn, где n не перемножаются, а конкатенируются
 
 */
+
+let n = 3;
+let str = String(n);
+let nn = str + str;
+let nnn = str + str + str;
+let result = Number(n) + Number(nn) + Number(nnn);
+console.log(result);
